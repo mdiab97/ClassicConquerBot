@@ -143,3 +143,7 @@ Load `Gateways.json` (portal database) via the Cross-Map panel, then select a de
 - HWID spoofing hooks WinAPI at the IAT level. It patches `GetUserNameA`, `GetVolumeInformationA`, `GetNativeSystemInfo`, and `GetComputerNameA`.
 - The bot uses `SetCommand` via vtable for jumps instead of the game's `FN_JUMP` function, because the jump function has a side effect that corrupts the gold display.
 - Static MSVC runtime is used (`/MT`) so you don't need to ship vcredist.
+
+## Credits
+
+- Manual map injector based on [Simple-Manual-Map-Injector](https://github.com/TheCruZ/Simple-Manual-Map-Injector) by TheCruZ.
