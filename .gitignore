@@ -1,0 +1,37 @@
+# Build
+build/
+out/
+cmake-build-*/
+CMakeSettings.json
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Binaries
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.map
+
+# Config (user-specific)
+config.json
+config_*.json
+Gateways.json
+
+# Logs
+*.log
+crash.log
+scatter_log.json
+npc_dumps.json
+
+# CPM cache
+cpm_cache/
